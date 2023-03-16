@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.navbar {
+    display: flex;
+    background-color: #D6CDA4;
+    justify-content: space-between;
+    padding: 20px 100px;
+    font-family: 'Inter';
+    color: aliceblue;
+}
+
+.navbarOptios {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style-type: none;
+    font-size: 17px;
+}
+
+.navbarOptios a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 35px;
+    align-self: flex-start;
+}
+
+.logo a {
+    text-decoration: none;
+    color: aliceblue;
+}
