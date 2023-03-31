@@ -130,3 +130,63 @@
 .signUp:hover {
     cursor: pointer;
 }
+
+/* why us */
+
+.whyUs {
+    background-color: #F7F6F6;
+    padding-bottom: 30px;
+}
+
+.whyUsHeading {
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 540;
+    font-size: 55px;
+    line-height: 132%;
+    letter-spacing: 0.22em;
+    text-align: center;
+    padding: 30px 0 10px 0;
+}
+
+.whyUstext {
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-size: 17px;
+    padding: 0 50px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.165em;
+}
+
+.whyUsList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+
+.whyUsItem {
+    text-align: center;
+    padding: 0 20px;
+}
+
+.whyUsItem p {
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.whyUsItemImg {
+    padding: 40px 0;
+}
+
+.whyUsItemHed {
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 25px 0;
+}
