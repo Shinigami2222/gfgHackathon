@@ -1,4 +1,11 @@
+import checkedImage from "../../assets/images/checked.png";
+import holdingHandImage from "../../assets/images/holdingHand.png";
+import noDisturbSymbol from "../../assets/images/noDisturbSymbol.png";
+import stopwatchImage from "../../assets/images/stopwatch.png";
 import classes from "./Home.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function Home() {
   return (
@@ -69,6 +76,64 @@ function Home() {
             Stay updated by email or notification centre
           </li>
         </ul>
+      </div>
+
+      <div className={classes.whyUs}>
+        <p className={classes.whyUsHeading}>WHY US</p>
+        <p className={classes.whyUstext}>
+          WE WORK ALONGSIDE YOU TO CREATE OR RE-INVENT YOUR OACKAGING UNQUE TO
+          YOUR PRODUCTS AND YOUR PROCESS
+        </p>
+        <div className={classes.whyUsList}>
+          <div className={classes.whyUsItem}>
+            <img
+              src={holdingHandImage}
+              alt=""
+              className={classes.whyUsItemImg}
+            />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Provident, quia culpa. Recusandae repellendus sed voluptatibus
+              aliquid saepe dolorem iusto quae dignissimos? Maxime, assumenda
+              nesciunt? Iusto aliquam eos optio? Cupiditate, tempore.
+            </p>
+            <div className={classes.whyUsItemHed}>QUALITY PRODUCTS</div>
+          </div>
+          <div className={classes.whyUsItem}>
+            <img src={stopwatchImage} alt="" className={classes.whyUsItemImg} />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Provident, quia culpa. Recusandae repellendus sed voluptatibus
+              aliquid saepe dolorem iusto quae dignissimos? Maxime, assumenda
+              nesciunt? Iusto aliquam eos optio? Cupiditate, tempore.
+            </p>
+            <div className={classes.whyUsItemHed}>CONVENIENT</div>
+          </div>
+          <div className={classes.whyUsItem}>
+            <img
+              src={noDisturbSymbol}
+              alt=""
+              className={classes.whyUsItemImg}
+            />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Provident, quia culpa. Recusandae repellendus sed voluptatibus
+              aliquid saepe dolorem iusto quae dignissimos? Maxime, assumenda
+              nesciunt? Iusto aliquam eos optio? Cupiditate, tempore.
+            </p>
+            <div className={classes.whyUsItemHed}>NO ME</div>
+          </div>
+          <div className={classes.whyUsItem}>
+            <img src={checkedImage} alt="" className={classes.whyUsItemImg} />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Provident, quia culpa. Recusandae repellendus sed voluptatibus
+              aliquid saepe dolorem iusto quae dignissimos? Maxime, assumenda
+              nesciunt? Iusto aliquam eos optio? Cupiditate, tempore.
+            </p>
+            <div className={classes.whyUsItemHed}>TRUSTWORTHY</div>
+          </div>
+        </div>
       </div>
     </div>
   );

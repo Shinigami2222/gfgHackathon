@@ -1,0 +1,20 @@
+.footer {
+    background-color: #FFFBEB;;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+
+.footerItemHed {
+    padding: 20px 0;
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.footerItemContent {
+    padding: 5px 0;
+}
