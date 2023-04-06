@@ -5,6 +5,7 @@ import Cart from "./pages/Cart";
 import AboutUs from "./pages/AboutUs";
 import OurServices from "./pages/OurServices";
 import SignIn from "./pages/SignIn";
+import Sell from "./pages/Sell/Sell";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/sign-in" element={<SignIn />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="sell" element={<Sell />} />
       </Routes>
     </Layout>
   );
