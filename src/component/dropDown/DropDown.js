@@ -5,7 +5,9 @@ function DropDown() {
   return (
     <div className={classes.dropDown}>
       <ul classNamE={classes.menu}>
-        <li className={classes.menuItem}>Buy</li>
+        <li className={classes.menuItem}>
+          <Link to="/buy">Buy</Link>
+        </li>
         <li className={classes.menuItem}>
           <Link to="/sell">Sell</Link>
         </li>
