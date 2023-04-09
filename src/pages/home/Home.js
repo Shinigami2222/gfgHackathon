@@ -3,9 +3,9 @@ import holdingHandImage from "../../assets/images/holdingHand.png";
 import noDisturbSymbol from "../../assets/images/noDisturbSymbol.png";
 import stopwatchImage from "../../assets/images/stopwatch.png";
 import classes from "./Home.module.css";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
-// import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function Home() {
   return (

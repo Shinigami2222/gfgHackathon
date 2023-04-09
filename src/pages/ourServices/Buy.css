@@ -54,20 +54,22 @@
   
   .category-title {
     margin: auto;
-    font-size: 150%;
+    font-size: 25px;
     font-weight: 80;
     /* border: 1px solid black; */
   }
   
-  /* @media only screen and (max-width: 1200px) {
+  @media only screen and (max-width: 1200px) {
     .category-title{
       font-size: 15px;
     }
-  } */
+  }
 
-  /* @media only screen and (max-width: 600px) {
-    
-  } */
+  @media only screen and (max-width: 650px) {
+    .category-title{
+      font-size: 10px;
+    }
+  }
 
   
   
